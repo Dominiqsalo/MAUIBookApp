@@ -1,0 +1,64 @@
+# Build results
+bin/
+obj/
+[Mm]igrationBackup/
+*.exe
+*.dll
+*.app
+*.msi
+*.apk
+*.aab
+*.dylib
+*.so
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+.vscode/
+.vs/
+
+# macOS specific
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+
+# Rider project files
+.idea/
+
+# Visual Studio for Mac
+*.pidb
+*.userprefs
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# MAUI specific
+*.apk
+*.aab
+*.ipa
+*.app
+*.xcarchive
+*.xcuserstate
+
+# Code Coverage
+*.coverage
+*.coveragexml
+TestResults/
+
+# Log files
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+# Xamarin/MAUI specific cache
+.cache/

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.EditPage"
+             Title="EditPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="editTitleEntry" Placeholder="Title" />
+            <Entry x:Name="editAuthorEntry" Placeholder="Author" />
+
+            <Button Text="Update" Clicked="UpdateButton_Clicked" />
+            <Button Text="Delete Book" Clicked="DeleteButton_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
